@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url(https://i.pinimg.com/originals/90/d3/1e/90d31ec7664fcd284af69cc847dfed26.gif);
+    background-size: 100%;
+    background-position-y: 6%;
+    
+
+    display: flex;
+    justify-content: center;
+}
+
+.dark-mode{
+    background: url(https://i.pinimg.com/originals/36/65/33/3665336e01359e00e9965578acd66431.gif);
+    background-size: 100%;
+}
+
+.dark-mode div {
+background: rgba(211, 201, 201, 0.795);
+}
+
+input{
+    width: 55%;
+    padding: .9%;
+    margin-left: 9%;
+    margin-bottom: 5%;
+}
+
+button{
+    border-color: rgba(137, 43, 226, 0.76);
+    border-width: 6px;
+    width: 45%;
+    margin-left: 15%;
+    padding: 2px;
+    border-radius: 7px;
+    scale: 1;
+    transition: .6s;
+}
+
+button:hover{
+    scale:1.2;
+}
+
+header {
+    background: rgba(29, 20, 85, 0.952);
+    width: 90%;
+    height: 60px;
+    justify-content: center;
+    display: flex;
+    color: white;
+    border-radius: 15px;
+
+}
+
+header h1 {
+    text-shadow: black 8px 0px 5px;
+
+    margin-top: 8px;
+}
+
+#tema{
+    position: absolute;
+    top: 2%;
+    width: 4%;
+    border-radius: 15px;
+    right: 12%;
+    padding: 5px;
+    border-color:rgb(94, 189, 157);
+    border-width: 5px;
+    scale: 1;
+    transition: .6s;
+}
+
+#tema:hover{
+    scale:1.2;
+}
+
+p{
+    padding-bottom: 28px;
+}
+
+.box{
+    animation: backwards;
+    border-radius: 20px;
+    text-shadow: 5px 6px 7px;
+background-color: rgba(215, 250, 244, 0.39);
+width:  28%;
+max-height: 80%;
+position: absolute;
+top: 18%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 32px;
+}
+
+
